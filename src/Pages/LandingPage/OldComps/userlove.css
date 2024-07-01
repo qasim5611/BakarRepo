@@ -1,0 +1,24 @@
+.slick-slide {
+    padding: 3rem 1.2rem;
+}
+.slick-vertical .slick-slide {
+    display: flex !important;
+    justify-content: center;
+}
+li {
+    margin-top: 0.5rem;
+}
+.slick-dots li.slick-active button:before {
+    color: 'red !important';
+}
+
+@media only screen and (max-width: 900px) {
+    .slick-slide {
+        padding: 3rem 1rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .slick-slide {
+        padding: 3rem 0rem;
+    }
+}

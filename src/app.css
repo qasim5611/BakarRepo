@@ -1,0 +1,25 @@
+.my-facebook-button-class {
+    display: none;
+}
+
+@font-face {
+    font-family: Gmarket;
+    src: url(../public/GmarketSans.ttf);
+}
+
+.otpCodeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.otpCodeInput {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    font-size: 24px;
+    text-align: center;
+    color: #494949;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+}
